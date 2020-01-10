@@ -3,7 +3,7 @@
 Summary: Extra files for GIMP
 Name: gimp-data-extras
 Version: 2.0.2
-Release: 8%{?dist}
+Release: 9%{?dist}
 License: GPLv2+
 Group: Applications/Multimedia
 URL: http://www.gimp.org/
@@ -39,6 +39,9 @@ rm -rf %{buildroot}
 %{gimpdatadir}/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.0.2-9
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.0.2-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
